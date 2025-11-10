@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tugas Bootstrap - Wawa Elent</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- ======================= NAVBAR ======================= -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- navbar = komponen navbar bootstrap -->
+  <!-- navbar-expand-lg = mengatur responsif -->
+  <!-- navbar-dark = teks putih -->
+  <!-- bg-dark = background hitam -->
+
+  <a class="navbar-brand" href="#">Website Wawa</a>
+  <!-- navbar-brand = judul di navbar -->
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+    <!-- navbar-toggler-icon = icon garis saat mobile -->
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <!-- collapse + navbar-collapse = menyembunyikan menu saat kecil -->
+
+    <ul class="navbar-nav">
+      <!-- navbar-nav = kontainer item menu -->
+
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Beranda</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Profil</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- ====================================================== -->
+
+
+<!-- ======================= JUMBOTRON ======================= -->
+<div class="jumbotron text-center">
+  <!-- jumbotron = kotak besar highlight -->
+  <!-- text-center = teks rata tengah -->
+
+  <h1 class="display-4">Selamat Datang!</h1>
+  <!-- display-4 = font heading besar -->
+
+  <p class="lead">Ini adalah halaman web statis menggunakan Bootstrap.</p>
+  <!-- lead = gaya paragraf besar -->
+
+  <hr class="my-4">
+  <!-- my-4 = margin vertical -->
+
+  <p>Bootstrap memudahkan pembuatan website responsif dan modern.</p>
+
+  <a class="btn btn-primary btn-lg" href="#" role="button">Selengkapnya</a>
+  <!-- btn = gaya tombol -->
+  <!-- btn-primary = tombol biru -->
+  <!-- btn-lg = ukuran tombol besar -->
+</div>
+<!-- ====================================================== -->
+
+
+<div class="container">
+<!-- container = pembungkus layout -->
+
+<!-- ======================= GAMBAR ======================= -->
+<h3 class="text-center">Contoh Gambar</h3>
+
+<img src="tower.jpg" class="img-fluid rounded mb-4" alt="gambar tower">
+<!-- img-fluid = gambar responsif -->
+<!-- rounded = sudut membulat -->
+<!-- mb-4 = margin bawah -->
+<!-- ===================================================== -->
+
+
+<!-- ======================= CARD (NILAI PLUS) ======================= -->
+<div class="card" style="width: 18rem; margin:auto;">
+  <!-- card = card bootstrap -->
+
+  <img class="card-img-top" src="tower.jpg" alt="Card image">
+  <!-- card-img-top = gambar di atas card -->
+
+  <div class="card-body">
+    <!-- card-body = konten card -->
+
+    <h5 class="card-title">Card Bootstrap</h5>
+    <!-- card-title = judul card -->
+
+    <p class="card-text">Ini contoh card Bootstrap sebagai elemen tambahan.</p>
+    <!-- card-text = deskripsi -->
+
+    <a href="#" class="btn btn-success">Klik Disini</a>
+    <!-- btn-success = tombol hijau -->
+  </div>
+</div>
+<!-- ===================================================== -->
+
+</div>
+
+
+<!-- Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
